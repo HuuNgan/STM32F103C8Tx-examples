@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"pulse_lenght_measurement\startup_stm32f103xb.o"
+"pulse_lenght_measurement\main.o"
+"pulse_lenght_measurement\stm32f1xx_it.o"
+"pulse_lenght_measurement\stm32f1xx_hal_msp.o"
+"pulse_lenght_measurement\stm32f1xx_hal_gpio_ex.o"
+"pulse_lenght_measurement\stm32f1xx_hal_tim.o"
+"pulse_lenght_measurement\stm32f1xx_hal_tim_ex.o"
+"pulse_lenght_measurement\stm32f1xx_hal.o"
+"pulse_lenght_measurement\stm32f1xx_hal_rcc.o"
+"pulse_lenght_measurement\stm32f1xx_hal_rcc_ex.o"
+"pulse_lenght_measurement\stm32f1xx_hal_gpio.o"
+"pulse_lenght_measurement\stm32f1xx_hal_dma.o"
+"pulse_lenght_measurement\stm32f1xx_hal_cortex.o"
+"pulse_lenght_measurement\stm32f1xx_hal_pwr.o"
+"pulse_lenght_measurement\stm32f1xx_hal_flash.o"
+"pulse_lenght_measurement\stm32f1xx_hal_flash_ex.o"
+"pulse_lenght_measurement\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "pulse_lenght_measurement\pulse_lenght_measurement.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "pulse_lenght_measurement.map" -o pulse_lenght_measurement\pulse_lenght_measurement.axf
