@@ -1,0 +1,7 @@
+main.c:64:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:72:6:getchar	24	static
+main.c:86:5:main	24	static
+main.c:142:6:SystemClock_Config	72	static
+main.c:180:13:MX_TIM2_Init	32	static
+main.c:225:13:MX_GPIO_Init	40	static
+main.c:260:6:Error_Handler	4	static
